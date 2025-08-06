@@ -1,0 +1,76 @@
+// test case 
+
+
+{
+  "siteKitty": 10000,
+  "salesAgents": [
+    {
+      "id": "A1",
+      "performanceScore": 90,
+      "seniorityMonths": 18,
+      "targetAchievedPercent": 85,
+      "activeClients": 12
+    },
+    {
+      "id": "A2",
+      "performanceScore": 70,
+      "seniorityMonths": 6,
+      "targetAchievedPercent": 60,
+      "activeClients": 8
+    }
+  ],
+  "config": {
+    "mode": "base-bonus",
+    "basePercentage": 0.2
+  }
+}
+ 2. 
+ {
+  "siteKitty": 10000,
+  "salesAgents": [
+    {
+      "id": "A1",
+      "performanceScore": 0,
+      "seniorityMonths": 0,
+      "targetAchievedPercent": 0,
+      "activeClients": 0
+    },
+    {
+      "id": "A2",
+      "performanceScore": 0,
+      "seniorityMonths": 0,
+      "targetAchievedPercent": 0,
+      "activeClients": 0
+    }
+  ],
+  "config": {
+    "mode": "base-bonus",
+    "basePercentage": 0.5
+  }
+}
+3.
+{
+  "siteKitty": 10000,
+  "salesAgents": [
+    {
+      "id": "A1",
+      "performanceScore": 100,
+      "seniorityMonths": 12,
+      "targetAchievedPercent": 100,
+      "activeClients": 20
+    },
+    {
+      "id": "A2",
+      "performanceScore": 30,
+      "seniorityMonths": 2,
+      "targetAchievedPercent": 20,
+      "activeClients": 3
+    }
+  ],
+  "config": {
+    "mode": "base-bonus",
+    "basePercentage": 0.2,
+    "min": 3000,
+    "max": 6000
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "siteKitty": 10000,
+  "salesAgents": [
+    {
+      "id": "A1",
+      "performanceScore": 100,
+      "seniorityMonths": 12,
+      "targetAchievedPercent": 100,
+      "activeClients": 20
+    },
+    {
+      "id": "A2",
+      "performanceScore": 30,
+      "seniorityMonths": 2,
+      "targetAchievedPercent": 20,
+      "activeClients": 3
+    }
+  ],
+  "config": {
+    "mode": "base-bonus",
+    "basePercentage": 0.2,
+    "min": 3000,
+    "max": 6000
+  }
+}

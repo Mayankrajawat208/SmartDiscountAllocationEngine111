@@ -1,0 +1,15 @@
+{
+  "allocations": [
+    {
+      "id": "A1",
+      "assignedDiscount": 6815,
+      "justification": "high performance, strong target achievement, high client responsibility"
+    },
+    {
+      "id": "A2",
+      "assignedDiscount": 3184,
+      "justification": "consistent performance"
+    }
+  ],
+  "remainingKitty": 1
+}
